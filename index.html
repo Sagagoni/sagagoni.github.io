@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id = "page">
+        <h1 id = "main-title" > ABOUT ME </h1>
+        <h3 id ="name"> Saga Goñi Jung </h3>
+        <div id = "u-info" >
+            <p class="main-info"> 
+                Industrial Civil Engineering 
+            </p>
+            <p class = "main-info"> Year of enrollment: 2021 </p>
+            <a href="https://github.com/Sagagoni"> My Github </a>    
+        </div>
+        <h3 class = "subtitles" > Personal summary </h3>
+    
+            <ul class= "main-info">
+                <li>I am the older of 3 siblings</li>
+                <li>I like practicing sports such as skiing or mountain biking</li>
+                <li>I love eating icecream and being with friends</li>
+                <li>I am really interested in travelling and meeting new places.</li>
+            </ul> 
+             
+            
+            
+
+        
+
+        <table id="skills-table" >
+            <h3 id="table-title"> SKILLS </h3>
+            <tr class = "table-header">
+                <td>  Skill </td>
+                <td>  Level </td>
+            </tr>
+            <tr class = "row1">
+                <td> Python </td>
+                <td> Advanced </td>
+            </tr>
+            <tr class = "row2" > 
+                <td> JavaScript </td>
+                <td> Basic </td>
+            </tr>
+            <tr class = "row1" >
+                <td> HTML/CSS</td>
+                <td> Basic </td>
+            </tr>
+            <tr class = "row2" >
+                <td> Git </td>
+                <td> Basic </td>
+            </tr>
+            <tr class = "row1" >
+                <td> Excel </td>
+                <td> Advanced </td>
+            </tr>
+            <tr class = "row2" >
+                <td> SQL </td>
+                <td> Advanced </td>
+            </tr>
+            <tr class = "row1" >
+                <td> SQL </td>
+                <td> Advanced </td>
+            </tr>
+            <tr class = "row2" >
+                <td> English </td>
+                <td> Advanced </td>
+            </tr>
+            <tr class = "row1" >
+                <td> Spanish </td>
+                <td> Native </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div  id = "edit-box"> 
+        <h4 class = subtitles >  Today's meal </h4> 
+        <p id ="mealContent"> Hot dog </p>
+    </div>
+
+    <div id="first-input">
+        <input id="textInput" type="text" placeholder="Update today's meal...">
+        <button id= button1 onclick="updateContent()"> UPDATE  </button>
+
+    </div>
+
+    <script>
+        function updateContent() {
+            var answer = document.getElementById('textInput').value;
+            document.getElementById('mealContent').textContent = answer;
+        
+        }
+    </script>
+
+
+    
+</body>
+</html>

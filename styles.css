@@ -1,0 +1,64 @@
+#page {
+    font-family: Helvetica, sans-serif
+}
+
+#main-title {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+#name {
+    text-align: center;
+
+}
+
+#u-info {
+    text-align: right;
+    margin-right: 30px;
+    line-height: 0.5;
+    margin-bottom: 10px;
+}
+
+#skills-table{
+    border-collapse: collapse;
+    width: 30%;
+    margin: auto;
+}
+
+#table-title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+th, td {
+    border: 2px solid black; 
+    padding: 8px;
+    text-align: center;
+}
+
+.row2 {
+    background-color:rgb(181, 177, 135)
+
+}
+
+.table-header {
+    background-color:grey; 
+    font-weight: bold;
+}
+
+#boton1 {
+    margin: 50px;
+
+}
+
+#edit-box {
+    text-align: center;
+    
+}
+
+#first-input {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
