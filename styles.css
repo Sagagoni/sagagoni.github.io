@@ -63,8 +63,8 @@ th, td {
 }
 
 .btn.custom-button {
-    background-color: lightcoral; 
-    border-color:lightcoral; 
+    background-color: rgb(126, 140, 180); 
+    border-color: rgb(126, 140, 180); 
     border-width: 2px;
     border-style: solid;
     color: white; 
@@ -89,3 +89,4 @@ th, td {
     min-height: 50vh; /* Hace que el cuerpo tenga al menos la altura de la ventana */
     flex-direction: column;
 }
+
